@@ -97,11 +97,35 @@ h4 {
     background-color: #DB812D;
 }
 
-/* Header */
+.estacionamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #154C82;
+    text-align: center;
+    color: white;
+    height: 63px;
+    margin: 0;
+    padding: 0;
+}
 
+.estacionamento h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.76px;
+}
+
+.estacionamento h3 span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.76px;
+}
+
+/* Header */
 header {
     padding: 1vh;
 }
+
 
 header .container {
     display: flex;
