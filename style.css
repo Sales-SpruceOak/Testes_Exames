@@ -227,7 +227,8 @@ section {
 .produtos {
     display: flex;
     flex-direction: row;
-    gap: 11px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 /* Sessão de Lojas */
@@ -272,9 +273,6 @@ section {
 }
 
 .programacao .slider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 6vh;
 }
 
@@ -285,8 +283,8 @@ section {
 .filmes {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 /* Sessão de Gastronomia */
@@ -310,7 +308,8 @@ section {
 .pics {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    width: 100%;
+    justify-content: space-between;
     color: white;
     margin-top: 6vh;
 }
