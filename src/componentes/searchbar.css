@@ -1,0 +1,16 @@
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.searchBar .search {
+    display: none;
+    height:12pt;
+    width: 400px;
+    background-color: black;
+}
+.searchBar .icon {
+    height: 30px;
+    width: 30px;
+}

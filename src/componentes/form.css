@@ -1,0 +1,105 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.caixaTexto {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px;
+    border-style: solid;
+    border-color: #154CDB;
+}
+
+#nome {
+    width: 582px;
+    height: 57px;
+}
+
+#nome label input {
+    width: 440px;
+}
+
+#email {
+    width: 582px;
+    height: 57px;
+}
+
+#email label input {
+    width: 440px;
+}
+
+#interesse {
+    width: 275.11px;
+    height: 57px;
+}
+
+#interesse label input {
+    width: 140px;
+}
+
+#datanascimento {
+    width: 278px;
+    height: 57px;
+}
+
+#datanascimento label{
+    position: relative;
+}
+
+#datanascimento label input {
+    width: 20px
+}
+
+/* ::-webkit-calendar-picker-indicator {
+    display: none;
+    content-visibility: hidden;
+} */
+
+#mensagem {
+    width: 582px;
+    height: 84px;
+}
+
+form label {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+    font-family: Alata;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.08px;
+
+}
+
+form label input {
+    border: none;
+    font-family: Alata;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.08px;
+}
+
+form label input:focus {
+    border: none;
+    outline: none;      
+}
+
+textarea{
+    height: 60px;
+    width: 420px;
+    resize: none;
+    border: none;
+    font-family: Alata;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.08px;
+}
+
+textarea:focus{
+    overflow-y: scroll;
+    outline: none;
+}

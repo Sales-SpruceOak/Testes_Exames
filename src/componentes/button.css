@@ -1,0 +1,57 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 234px;
+    height: 50px;
+    border-radius: 30px;
+    background: #154C82;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 270px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: DINPro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.76px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.button3 {
+    width: 204px;
+    height: 61px;
+    border-radius: 15px;
+    background: #DB812D;
+    font-family: DINPro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.76px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.sliderButton {
+    width: 60px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.SBleft {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.SBright{
+    border-radius: 0px 15px 15px 0px;
+}

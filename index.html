@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Detalhes da Página -->
+    <title>Recreio Shopping</title>
+    <link rel="shortcut icon" href="./src/imagens/ICON.png" type="image/x-icon">
+    <!-- Importações -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./src/normalize.css"> -->
+    <script src="./app.js"></script>
+    <!-- Fontes -->
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Alata -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <!-- Logo da Recreio Shopping -->
+            <div class="logoContainer">
+                <img class="logo" src="./src/imagens/LOGO.png" alt=".">
+            </div>
+            <!-- Separar a Logo dos Demais Componentes -->
+            <div class="popSearch">
+                <!-- Barra de Pesquisa da Página -->
+                <div class="searchBar">
+                    <div class="search">
+
+                    </div>
+                    <img class="icon" src="./src/imagens/BUSCAR.png" alt=".">
+                </div>
+                <!-- Botão de Menu -->
+                <div class="popover">
+                    <img src="./src/imagens/MENU.png" alt=".">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Menu Ativado Pelo Popover -->
+    <menu>
+        <a href="#Vitrine">Vitrine</a>
+        <a href="#Lojas">Lojas</a>
+        <a href="#Programacao">Programação</a>
+        <a href="#Gastronomia">Gastronomia</a>
+        <a href="#Contato">Contato</a>
+        <div class="searchBar">
+            <div class="search">
+
+            </div>
+            <img class="icon" src="./src/imagens/BUSCAR.png" alt=".">
+    </menu>
+    <!-- Div de Boas Vindas -->
+    <div class="boasVindas" id="BoasVindas">
+        <button class="sliderButton SBleft"></button>
+        <div class="slider">
+        </div>
+        <button class="sliderButton SBright"></button>
+    </div>
+    <!-- Sessão de Vitrine Virtual -->
+    <section id="Vitrine">
+        <div class="container vitrine">
+            <!-- <img src="./src/imagens/vitrine/TITULO.png" alt="."> -->
+            <div class="titulo">
+                <div class="tracinho"></div>
+                <h1>
+                    VITRINE <span>VIRTUAL</span>
+                </h1>
+                <div class="tracinho"></div>
+            </div>
+            <div class="slider">
+                <button class="sliderButton SBleft"></button>
+                <div class="produtos">
+                    <div class="card">
+                        <div class="categoriaCard-invisible">
+                            <p>
+                                MODA FEMININA
+                            </p>
+                        </div>
+                        <div class="categoriaCard">
+                        </div>
+                        <div class="imgCardContainer">
+                            <img class="imgCard" src="./src/imagens/vitrine/image 4.png" alt=".">
+                        </div>
+                        <div class="cardContent">
+                            <h3 class="titleCard">
+                                Conjunto Moletinho Gola V<br>Preto/Off
+                            </h3>
+                            <div class="lojaPrice">
+                                <p class="priceCard">
+                                    R$ 149,90
+                                </p>
+                                <h4 class="titleLoja">
+                                    Dondoca Moda Feminina
+                                </h4>
+                            </div>
+                            <div class="buttonCardContainer">
+                                <button class="button">
+                                    <img src="./src/imagens/vitrine/CARRINHO DE COMPRAS.png" alt=".">COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="categoriaCard-invisible">
+                            <p>
+                                MODA MASCULINA
+                            </p>
+                        </div>
+                        <div class="categoriaCard">
+                        </div>
+                        <div class="imgCardContainer">
+                            <img class="imgCard" src="./src/imagens/vitrine/image 5.png" alt=".">
+                        </div>
+                        <div class="cardContent">
+                            <h3 class="titleCard">
+                                CAMISETA MASCULINA<br>LONGLINE PRETA
+                            </h3>
+                            <div class="lojaPrice">
+                                <p class="priceCard">
+                                    R$ 89,00
+                                </p>
+                                <h4 class="titleLoja">
+                                    Americanas
+                                </h4>
+                            </div>
+                            <div class="buttonCardContainer">
+                                <button class="button">
+                                    <img src="./src/imagens/vitrine/CARRINHO DE COMPRAS.png" alt=".">COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="categoriaCard-invisible">
+                            <p>
+                                MODA MASCULINA
+                            </p>
+                        </div>
+                        <div class="categoriaCard">
+                        </div>
+                        <div class="imgCardContainer">
+                            <img class="imgCard" src="./src/imagens/vitrine/image 3.png" alt=".">
+                        </div>
+                        <div class="cardContent">
+                            <h3 class="titleCard">
+                                WHISKY BUCHANAN'S DELUXE<br>AGED 12 YEARS
+                            </h3>
+                            <div class="lojaPrice">
+                                <p class="priceCard">
+                                    R$ 139,00
+                                </p>
+                                <h4 class="titleLoja">
+                                    Loja de bebidas
+                                </h4>
+                            </div>
+                            <div class="buttonCardContainer">
+                                <button class="button">
+                                    <img src="./src/imagens/vitrine/CARRINHO DE COMPRAS.png" alt=".">COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="categoriaCard-invisible">
+                            <p>
+                                MODA MASCULINA
+                            </p>
+                        </div>
+                        <div class="categoriaCard">
+                        </div>
+                        <div class="imgCardContainer">
+                            <img class="imgCard" src="./src/imagens/vitrine/image 2.png" alt=".">
+                        </div>
+                        <div class="cardContent">
+                            <h3 class="titleCard">
+                                Perfume Ck Be Calvin Klein<br>Unissex 50ml
+                            </h3>
+                            <div class="lojaPrice">
+                                <p class="priceCard">
+                                    R$ 199,00
+                                </p>
+                                <h4 class="titleLoja">
+                                    Riachuelo
+                                </h4>
+                            </div>
+                            <div class="buttonCardContainer">
+                                <button class="button">
+                                    <img src="./src/imagens/vitrine/CARRINHO DE COMPRAS.png" alt=".">COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="sliderButton SBright"></button>
+            </div>
+            <div class="radio">
+                <div class="item cinza"></div>
+                <div class="item azul"></div>
+            </div>
+            <button class="button2">
+                Ver todos os produtos
+            </button>
+        </div>
+    </section>
+    <!-- Sessão de Lojas -->
+    <section id="Lojas">
+        <div class="container lojas">
+            <div class="titulo">
+                <div class="tracinho"></div>
+                <h1>
+                    NOSSAS <span>LOJAS</span>
+                </h1>
+                <div class="tracinho"></div>
+            </div>
+            <!-- Para Telas Maiores -->
+            <div class="exibicoes">
+                <div class="exibicao exibAtivo">
+                    <!-- Grupo de Três -->
+                    <img src="./src/imagens/lojas/image 10.png" alt=".">
+                    <img src="./src/imagens/lojas/image 11.png" alt=".">
+                    <img src="./src/imagens/lojas/image 6.png" alt=".">
+                    <!-- ''' -->
+                    <img src="./src/imagens/lojas/image 7.png" alt=".">
+                    <img src="./src/imagens/lojas/image 8.png" alt=".">
+                    <img src="./src/imagens/lojas/image 9.png" alt=".">
+                </div>
+                <div class="exibicao exibInativo">
+                    <!-- ''' -->
+                    <img src="./src/imagens/lojas/" alt=".">
+                    <img src="./src/imagens/lojas/" alt=".">
+                    <img src="./src/imagens/lojas/" alt=".">
+                    <!-- ''' -->
+                    <img src="./src/imagens/lojas/" alt=".">
+                    <img src="./src/imagens/lojas/" alt=".">
+                    <img src="./src/imagens/lojas/" alt=".">
+                </div>
+            </div>
+            <!-- Para Telas Menores -->
+            <div class="slider">
+
+            </div>
+            <button class="button2">Ver todas as lojas</button>
+        </div>
+    </section>
+    <!-- Sessão de Programação -->
+    <section id="Programacao">
+        <div class="container programacao">
+            <div class="titulo">
+                <div class="tracinho"></div>
+                <h1>
+                    PROGRAMAÇÃO <span>CINEMARK</span>
+                </h1>
+                <div class="tracinho"></div>
+            </div>
+            <div class="slider">
+                <button class="sliderButton SBleft"></button>
+                <div class="filmes">
+                    <img class="cover" src="./src/imagens/programacao/Rectangle 25.png" alt=".">
+                    <img class="cover" src="./src/imagens/programacao/Rectangle 26.png" alt=".">
+                    <img class="cover" src="./src/imagens/programacao/Rectangle 27.png" alt=".">
+                    <img class="cover" src="./src/imagens/programacao/Rectangle 28.png" alt=".">
+                </div>
+                <button class="sliderButton SBright"></button>
+            </div>
+            <div class="radio">
+                <div class="item azul"></div>
+                <div class="item cinza"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Sessão de Gastronomia -->
+    <section id="Gastronomia">
+        <div class="container gastronomia">
+            <div class="titulo">
+                <div class="tracinho"></div>
+                <h1>
+                    GASTRONOMIA
+                </h1>
+                <div class="tracinho"></div>
+            </div>
+            <div class="slider pics">
+                <button class="sliderButton SBleft"></button>
+                <div class="card2">
+                    <img class="pic" src="./src/imagens/gastronomia/Ellipse 6.png" alt=".">
+                    <h3 class="picTitle">Alimento Apresentação</h3>
+                    <p class="picText">Uma apresentação genérica de um alimento genérico.
+                        Não há muito o que se esperar, a intenção mesmo é apenas preencher os campos
+                        de texto.
+                    </p>
+                </div>
+                <div class="card2">
+                    <img class="pic" src="./src/imagens/gastronomia/Ellipse 7.png" alt=".">
+                    <h3 class="picTitle">Alimento Apresentação</h3>
+                    <p class="picText">Uma apresentação genérica de um alimento genérico.
+                        Não há muito o que se esperar, a intenção mesmo é apenas preencher os campos
+                        de texto.
+                    </p>
+                </div>
+                <div class="card2">
+                    <img class="pic" src="./src/imagens/gastronomia/Ellipse 8.png" alt=".">
+                    <h3 class="picTitle">Alimento Apresentação</h3>
+                    <p class="picText">Uma apresentação genérica de um alimento genérico.
+                        Não há muito o que se esperar, a intenção mesmo é apenas preencher os campos
+                        de texto.
+                    </p>
+                </div>
+                <div class="card2">
+                    <img class="pic" src="./src/imagens/gastronomia/Ellipse 9.png" alt=".">
+                    <h3 class="picTitle">Alimento Apresentação</h3>
+                    <p class="picText">Uma apresentação genérica de um alimento genérico.
+                        Não há muito o que se esperar, a intenção mesmo é apenas preencher os campos
+                        de texto.
+                    </p>
+                </div>
+                <button class="sliderButton SBright"></button>
+            </div>
+            <div class="radio">
+                <div class="caixaItem">
+                    <div class="item amarelo itemSolto" style="left: 50px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer com Contato -->
+    <footer>
+        <div class="container contato">
+            <div class="titulo tituloContato">
+                <div class="tracinho"></div>
+                <h1 style="font-family: Inter;">
+                    CONTATO
+                </h1>
+                <div class="tracinho"></div>
+            </div>
+            <div class="formContainer">
+                <form action="">
+                    <div class="caixaTexto" id="nome">
+                        <label>
+                            Nome
+                            <input type="text" name="nome">
+                        </label>
+                    </div>
+                    <div class="caixaTexto" id="email">
+                        <label>
+                            Email
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+                    <div class="caixaTexto" id="interesse">
+                        <label>
+                            Interesse
+                            <input type="text" name="interesse">
+                        </label>
+                    </div>
+                    <div class="caixaTexto" id="datanascimento">
+                        <label>
+                            Data de nascimento
+                            <input type="date" name="datanascimento">
+                        </label>
+                    </div>
+                    <div class="caixaTexto" id="mensagem">
+                        <label>
+                            Mensagem
+                            <textarea name="mensagem"> </textarea>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Skew e Info do -->
+        <div class="skew">
+
+        </div>
+        <div class="info">
+            <div class="container footerInfo">
+                <div class="footerLogo">
+                    <img style="width: 171px; height: 92px;" src="./src/imagens/LOGOFOOTER.png" alt=".">
+                </div>
+                <div class="footerNav">
+                    <div class="tracoVertical"></div>
+                    <ul>
+                        <li> <a href="#Vitrine">VITRINE VIRTUAL</a> </li>
+                        <li> <a href="#Lojas">NOSSAS LOJAS</a></li>
+                        <li> <a href="#Programacao">CINEMA</a></li>
+                        <li> <a href="#Gastronomia">GASTRONOMIA</a></li>
+                    </ul>
+                </div>
+                <div class="footerRedes">
+                    <h3>REDES SOCIAIS</h3>
+                    <div class="iconRedes">
+                        <img src="./src/imagens/ICONFACEBOOK.png" alt=".">
+                        <img src="./src/imagens/ICONYOUTUBE.png" alt=".">
+                        <img src="./src/imagens//ICONINSTAGRAM.png" alt=".">
+                    </div>
+                </div>
+                <div class="footerCreditos">
+                    <h3>NEWSLETTER</h3>
+                    <p>Receba nossas novidades</p>
+                    <button class="button3">CADASTRAR</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

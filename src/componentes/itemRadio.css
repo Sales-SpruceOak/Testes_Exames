@@ -1,0 +1,35 @@
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 6vh;
+    margin-top: 3vh;
+}
+
+.caixaItem {
+    position: relative;
+    width: 581px;
+    height: 12px;
+    background: #E0E0E0;
+}
+
+.item {
+    width: 72px;
+    height: 12px;
+}
+
+.itemSolto{
+    position: absolute;
+}
+
+.cinza {
+    background-color: #BDBDBD;
+}
+
+.azul {
+    background-color: #154C82;
+}
+
+.amarelo {
+    background-color: #FFF22D;
+}

@@ -1,0 +1,18 @@
+.slider {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.sliderButton {
+    position: absolute;
+    z-index: 99;
+}
+
+.slider .SBleft {
+    left: -60px;
+}
+
+.slider .SBright {
+    right: -60px;
+}

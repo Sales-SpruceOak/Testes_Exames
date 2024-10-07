@@ -1,0 +1,21 @@
+.exibicoes {
+    border-radius: 5px;
+}
+
+.exibInativo {
+    display: none;
+    content-visibility: hidden;
+}
+
+.exibicao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+.exibicao img {
+    width: 375px;
+    height: 232px;
+    border-radius: 5px;
+}
