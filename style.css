@@ -17,6 +17,8 @@
 @import url(./src/componentes/slider.css);
 /* ItemRadio */
 @import url(./src/componentes/itemRadio.css);
+/* Responsividade */
+@import url(./src/responsivo.css);
 
 @font-face {
     font-family: DINpro;
@@ -59,7 +61,7 @@ h4 {
     margin: auto;
     padding: 0 15px;
     box-sizing: border-box;
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 
 /* Modelos */
@@ -434,59 +436,4 @@ footer {
     text-align: left;
     margin-top: 5px;
     margin-bottom: 15px;
-}
-
-/* Tamanhos de Tela */
-
-@media screen and (min-width: 576px) {
-    .container {
-        max-width: 540px;
-        padding: 0;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-
-    .boasVindas {
-        height: 500px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .container {
-        max-width: 1140px;
-    }
-
-    .boasVindas {
-        height: 600px;
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    .container {
-        max-width: 1140px;
-    }
-
-    .boasVindas .slider {
-        background-image: url(./src/imagens/banner.png);
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
 }
