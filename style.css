@@ -17,8 +17,8 @@
 @import url(./src/componentes/slider.css);
 /* ItemRadio */
 @import url(./src/componentes/itemRadio.css);
-/* Responsividade */
-/*@import url(./src/responsivo.css);*/
+/* Responsividade
+@import url(./src/responsivo.css); */
 
 @font-face {
     font-family: DINpro;
@@ -59,9 +59,9 @@ h4 {
     width: 100%;
     max-width: 100%;
     margin: auto;
-    padding: 0 15px;
+    padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid green;*/
+    /* border: 1px solid green; */
 }
 
 /* Modelos */
@@ -185,7 +185,6 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .boasVindas .sliderButton {
@@ -230,7 +229,8 @@ section {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-between; 
+    /* border: 1px rgb(0, 217, 255) solid; */
 }
 
 /* Sessão de Lojas */
@@ -436,4 +436,44 @@ footer {
     text-align: left;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+/* Notebook */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .boasVindas {
+        height: 500px;
+    }
+}
+
+/* PC */
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .boasVindas {
+        height: 600px;
+    }
+}
+
+/* TV */
+
+@media screen and (min-width: 2000px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .boasVindas .slider {
+        background-image: url(./src/imagens/banner.png);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
